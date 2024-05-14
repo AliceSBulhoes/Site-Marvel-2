@@ -13,3 +13,7 @@ function slideShow(){
     
 }
 slideShow();
+
+function contador(){
+    
+}
