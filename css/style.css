@@ -51,3 +51,27 @@ header{
     width: 100%;
     height: auto;
 }
+#herois{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    background-color: var(--card-color);
+    padding: 100px 50px;
+    max-width: 20% ;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 24px;
+    transition: 1s ease;
+    box-shadow: 1px 1px 20px var(--shadow-color);
+}
+.card:hover{
+    transform: scale(1.5);
+    transition: 1s ease;
+    box-shadow: 1px 1px 50px var(--shadow-color);
+}
