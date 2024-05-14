@@ -44,3 +44,10 @@ header{
     transition: 1s ease;
     background-color: var(--card-color);
 }
+#banner{
+    width: 100%;
+}
+#banner img{
+    width: 100%;
+    height: auto;
+}
