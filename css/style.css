@@ -52,7 +52,7 @@ header{
     height: auto;
 }
 #herois{
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -65,7 +65,7 @@ header{
     display: flex;
     text-align: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 24px;
     transition: 1s ease;
     box-shadow: 1px 1px 20px var(--shadow-color);
@@ -74,6 +74,8 @@ header{
     transform: scale(1.5);
     transition: 1s ease;
     box-shadow: 1px 1px 50px var(--shadow-color);
+    background-color: var(--font-color);
+    color: var(--card-color);
 }
 footer{
     width: 100%;
@@ -83,4 +85,12 @@ footer{
     justify-content: center;
     background-color: var(--shadow-color);
     text-align: center;
+}
+.contador{
+    font-size: 30px;
+    color: var(--header-color);
+    font-weight: 600;
+}
+.card h1{
+    font-size: 20px;
 }
